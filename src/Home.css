@@ -1,0 +1,333 @@
+.fa-bell {
+  font-size: 40px;
+  color: #AFB9CA;
+}
+
+.header-notifications {
+  display: flex;
+  justify-content: space-between;
+  margin-top: 6%;
+  margin-left: 2%;
+    margin-right: 1%;
+}
+
+.btn_submit {
+  display: flex;
+  justify-content: space-between;
+}
+.button {
+  background-color: #01b99f;
+  border: none;
+  color: white;
+  padding: 10px 20px;
+  text-align: center;
+  text-decoration: none;
+  display: inline-block;
+  font-size: 16px;
+  margin: 4px 2px;
+  cursor: pointer;
+}
+
+.button5 {
+  border-radius: 25%;
+}
+
+.main-content {
+  margin-top: 30px;
+}
+
+.heading_content {
+  font-size: 14px;
+  line-height: 16px;
+  color: #1d232b;
+  font-weight: 700;
+  margin-bottom: 20px;
+}
+
+@media screen and (max-width: 700px) {
+  .content_para {
+    display: none;
+  }
+  .content_paraone {
+    /* background-color: lightgreen; */
+  }
+}
+
+.current-year {
+  padding: 14px 24px;
+  /* width: 120px; */
+
+  color: #ced3de;
+  align-items: center;
+  padding: 5px 12px;
+  border-radius: 20% 20% 20% 20%;
+  background: #f7f8fa;
+  border: 0.5px solid #ced3de;
+}
+
+.buttons_contents {
+  display: flex;
+  justify-content: space-between;
+}
+
+.all_btns{
+    display: flex;
+    justify-content: space-between;
+}
+
+.homePic {
+    height: auto;
+    width: 100%;
+    object-fit: contain;
+  }
+
+  .like_comment{
+    display: flex;
+    margin-top: 33px;
+  }
+
+  .total_likes{
+    margin-left: 15px;
+  }
+
+  .total_comments{
+    margin-left: 15px;
+  }
+
+  .total_share{
+    margin-left: 15px;
+  }
+
+  .left_spacing{
+    margin-left: 5%;
+    display: flex;
+  }
+
+  .horiz-align{
+    display: flex;
+  }
+
+  .peoples_review{
+    display: flex;
+    justify-content: space-between;
+    margin-top: 4%;
+  }
+
+  .mask_grp1{
+    display: flex;
+  }
+
+  .masksgp{
+    display: inline-block;
+    margin: 0px 10px 0px 0px;
+  }
+
+  .masksgp1{
+    display: inline-block;
+    margin: 0px 10px 0px 10px;
+  }
+  .dots{
+    display: flex;
+    margin-left: 5%;
+  }
+
+  .customers-review{
+    display: flex;
+    flex-direction: column;
+  }
+
+  @media screen and (max-width: 700px) {
+
+  }
+  
+  .mask_grp1 {
+    display: flex;
+    height: fit-content !important;
+}
+
+.main-div{
+    display: flex;
+}
+.korean_content{
+    font-size: 13px;
+    margin-top: 5%;
+}
+.likeCommentSection{
+    display: flex;
+    margin-top: 5%;
+}
+
+.ownerReplies{
+    display: flex;
+    margin-top: 5%;
+}
+
+.onlyLikeIcon{
+    display: flex;
+    margin-top: 5%;
+}
+
+.likeforlike{
+    margin: 0 8px 0px 0px;
+}
+
+.btn-submission{
+  background-color: #fff;
+}
+form.example input[type=text] {
+    padding: 10px;
+    font-size: 17px;
+    float: left;
+    width: 80%;
+    border: none;
+  }
+  
+  form.example button {
+    /* width: 20%; */
+    padding: 10px;
+    /* background: #2196F3; */
+    color: #919EB6;
+    font-size: 17px;
+    /* border: 1px solid grey; */
+    border: none;
+    cursor: pointer;
+  }
+  
+  form.example button:hover {
+    background: #0b7dda;
+  }
+  
+  form.example::after {
+    content: "";
+    clear: both;
+    display: table;
+  }
+
+  .imageMode{
+    /* display: inline-flex; */
+    margin-top: 9%;
+  }
+  .imageModeDist{
+    margin-top: 10px;
+  }
+
+  .button-add {
+    background-color: #F7F8FA;
+    /* color:green !important; */
+    /* color:#CED3DE !important; */
+    color: #000000;
+
+    border: none;
+    text-align: center;
+    padding: 10px 16px;
+    border: 0.5px solid #CED3DE;
+    font-weight: 700;
+    font-size: 12px;
+  }
+
+  .button-addR{
+    margin-right: 2%;
+  }
+
+  .rounded-corners {
+    border-radius: 25px;
+  }
+
+  .imgTop{
+    margin-top: 5%;
+  }
+
+  .avtar_btn{
+    display: flex;
+    justify-content: space-between;
+    margin-top: 11%;
+  }
+
+  .grp-avtar-icons{
+    display: flex;
+    margin-top: auto;
+  }
+
+  .button-add8{
+    background-color: #01B99F;
+    color: #FFFFFF !important;
+  }
+
+  @media screen and (max-width: 480px) {
+    .button-addrow{
+      margin-top: 10px;
+    }
+  }
+
+  @media screen and (min-width: 650px){
+    .avtar_btn{
+      margin-top: 6% !important;
+    }
+  }
+
+  @media screen and (min-width: 768px){
+    .imageMode{
+      margin-top: 5% !important;
+    }
+
+    form.example input[type=text] {
+      padding: 10px;
+      font-size: 17px;
+      float: left;
+      width: 90%;
+      border: none;
+    }
+  }
+
+  @media screen and (min-width: 1000px){
+    form.example input[type=text] {
+      padding: 10px;
+      font-size: 17px;
+      float: left;
+      width: 94%;
+      border: none;
+    }
+    .imgTop {
+      margin-top: 3%;
+  }
+  }
+
+
+  .masksgp11{
+    display: inline-block;
+    margin: 0px 3px 0px 3px;
+  }
+
+  .groupPicss{
+    display: inline-block;
+    margin: 0px 10px 0px 0px !important;
+  }
+
+  .korean-text{
+    font-size: 25px;
+    font-weight: 700;
+  }
+
+  .icon {
+    display: inline-block;
+    color: inherit;
+    opacity: 1;
+    width: 1.5rem;
+    height: 1.5rem;
+    border-style: solid;
+    border-color: currentColor;
+    border-width: 0.2rem 0.2rem 0 0;
+  }
+  .icon__previous {
+    -webkit-transform: rotate(-135deg);
+    transform: rotate(-135deg);
+  }
+
+  .prev-align{
+    margin-top: auto;
+    margin-bottom: auto;
+  }
+ 
+
+
+
