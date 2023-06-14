@@ -83,7 +83,9 @@
 
   .like_comment{
     display: flex;
-    margin-top: 33px;
+    /* margin-top: 33px; */
+    margin-top: 25px;
+    margin-bottom: 25px;
   }
 
   .total_likes{

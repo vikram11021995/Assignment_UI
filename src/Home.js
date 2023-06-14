@@ -1,4 +1,4 @@
-import React, { Component } from "react";
+import React from "react";
 import "./Home.css";
 
 import Rectangle63 from "../src/Assets/5b9279582db2a92beb8db29fa1512ee9 (1).jpg";
@@ -11,8 +11,8 @@ import OtherIcon from "../src/Assets/Header/Group 26086629.png";
 import imagesmode from "../src/Assets/Header/imagesmode.png";
 import GroupAvatar from "../src/Assets/Header/Group 26086686.png";
 
-class Home extends Component {
-  render() {
+
+  const Home = () => {
     return (
       <>
         <div className='container'>
@@ -284,6 +284,5 @@ class Home extends Component {
       </>
     );
   }
-}
 
 export default Home;
